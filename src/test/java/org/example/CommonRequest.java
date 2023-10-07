@@ -40,4 +40,9 @@ public class CommonRequest {
         }
         return response;
     }
+    public Response sendPutAndReturnResponse(String url) {
+        RequestSpecification request = RestAssured.given();
+        Response response = request.delete(url);
+        return response;
+    }
 }
