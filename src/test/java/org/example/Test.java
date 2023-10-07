@@ -5,6 +5,7 @@ import io.restassured.response.Response;
 
 public class Test {
     private static final String BASE_URL = "https://petstore.swagger.io/v2/";
+    private static final String BASE_URL2 = "test";
 
     public static void main(String[] args) {
 
